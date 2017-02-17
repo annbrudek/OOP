@@ -1,4 +1,3 @@
-$(document).ready(function(){
 function Button(text) {
     this.text = text || "Hello";
 }
@@ -11,9 +10,10 @@ Button.prototype = {
             alert(self.text);
             
         }); $("body").append(this.$element);
-    }
+    } 
 }
-var btn1 = new Button("Hello!");
-btn1.create();
-    
+
+$(document).ready(function(){
+    new Button("Hello!").create();
+   
 });
