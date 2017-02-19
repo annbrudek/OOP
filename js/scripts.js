@@ -83,10 +83,12 @@ $(function() {
         placeholder: 'card-placeholder'
       }).disableSelection();
     };
-    $('.create-column').click(function(){
+    $('.create-column').click(function(event){
       var name = prompt('Wpisz nazwę kolumny');
+      if (name.length > 0) {
       var column = new Column(name);
       board.addColumn(column);
+    }
     });
     var todoColumn = new Column('Do zrobienia');
     var doingColumn = new Column('W trakcie');

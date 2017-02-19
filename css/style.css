@@ -54,28 +54,26 @@ font-family: 'Cuprum', sans-serif;
 }
 
 .btn-delete {
-  border-radius: 5px;
-  background-color: #CC5C43;
-  padding: 5px;
+  background-color: #727F5D;
   border: none;
-  margin: 5px;
-  width: 30px;
-  height: 30px;
+  margin: 2px;
+  padding: 5px;
+  width: 25px;
   color: #fff;
 }
 .btn-delete:hover {
   background-color: #BF0000;
 }
 .add-card {
-  border-radius: 5px;
-  background-color: #637F36;
+  background-color: #88b04b;
   border: none;
   padding: 5px;
   margin: 5px;
   color: #fff;
+  text-transform: uppercase;
 }
 .add-card:hover {
-  background-color: #31401B;
+  background-color: #637F36;
 }
 .column-card-list {
   list-style: none;
